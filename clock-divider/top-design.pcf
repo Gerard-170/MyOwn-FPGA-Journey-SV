@@ -1,0 +1,4 @@
+# Oscillator
+set_io		clk		21
+set_io      tick    95
+set_io      rst     96
