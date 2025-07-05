@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Sat Jul  5 07:01:42 2025
+[*]
+[dumpfile] "/home/gerard-117/Documents/FPGA-TEST/SystemVerilogTest/step3/led_blinky.vcd"
+[dumpfile_mtime] "Sat Jul  5 06:59:44 2025"
+[dumpfile_size] 16849
+[savefile] "/home/gerard-117/Documents/FPGA-TEST/SystemVerilogTest/step3/led_blinky_tb.gtkw"
+[timestart] 0
+[size] 1854 1001
+[pos] -27 -24
+*-23.675766 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] led_blinky_tb.
+[treeopen] led_blinky_tb.uut.
+[sst_width] 297
+[signals_width] 183
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@22
+led_blinky_tb.out[4:0]
+led_blinky_tb.uut.count[4:0]
+led_blinky_tb.uut.led[4:0]
+@28
+led_blinky_tb.uut.clk_local
+@29
+led_blinky_tb.uut.rst_signal
+[pattern_trace] 1
+[pattern_trace] 0
