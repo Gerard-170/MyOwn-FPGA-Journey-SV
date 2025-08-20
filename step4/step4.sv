@@ -10,7 +10,7 @@
 module SOC (
     input  clk,        // system clock 
     input  rst,      // reset button
-    output [4:0] led, // system LEDs
+    output [4:0] LEDS, // system LEDs
     input  RXD,        // UART receive
     output TXD         // UART transmit
 );
@@ -19,7 +19,7 @@ module SOC (
    wire resetn; // internal reset signal, goes low on reset
    assign resetn = rst;
    reg [31:0] MEM [0:255]; 
-   reg [31:0] PC;       // program counter
+   reg [31:0] PC;       // program counter holds the address from the current instruction from RISC - V manual
    reg [31:0] instr;    // current instruction
    
    initial begin
