@@ -23,7 +23,7 @@ module my_clockworks #(
 
    input  i_clk, // clock pin of the board
    input  rst, // reset pin of the board
-   output o_clk,   // (optionally divided) clock for the design.
+   output o_clk   // (optionally divided) clock for the design.
                  // divided if SLOW is different from zero.
 );               
    generate
